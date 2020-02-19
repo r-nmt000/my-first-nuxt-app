@@ -1,24 +1,24 @@
 <template>
   <div>
-    <h1>user page</h1>
+    <h1>products page</h1>
     <label>
-      <input type="text" v-model="userId">
+      <input type="text" v-model="productId">
     </label>
-    <button @click="onLoadUser">Load User</button>
+    <button @click="onLoadProduct">Load Product</button>
   </div>
 </template>
 
 <script>
     export default {
-        name: "users.vue",
+        name: "index.vue",
         data() {
           return {
             productId: ''
           }
         },
         methods: {
-          onLoadUser() {
-            this.$router.push('/users/' + this.userId)
+          onLoadProduct() {
+            this.$router.push('/products/' + this.productId)
           }
         }
     }

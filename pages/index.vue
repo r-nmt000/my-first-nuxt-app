@@ -4,6 +4,7 @@
       <logo />
       <h1>hello!</h1>
       <nuxt-link to="/users">Users</nuxt-link>
+      <nuxt-link to="/products">Products</nuxt-link>
 <!--      <h1 class="title">-->
 <!--        my-first-nuxt-app-->
 <!--      </h1>-->
