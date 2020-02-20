@@ -1,26 +1,11 @@
 <template>
-  <div>
-    <h1>user page</h1>
-    <label>
-      <input type="text" v-model="userId">
-    </label>
-    <button @click="onLoadUser">Load User</button>
-  </div>
+  <p>Please enter an id and click the button.</p>
 </template>
 
 <script>
     export default {
         name: "users.vue",
-        data() {
-          return {
-            productId: ''
-          }
-        },
-        methods: {
-          onLoadUser() {
-            this.$router.push('/users/' + this.userId)
-          }
-        }
+        layout: 'users'
     }
 </script>
 

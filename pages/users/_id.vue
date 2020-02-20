@@ -4,7 +4,11 @@
 
 <script>
     export default {
-        name: "_id"
+        name: "_id",
+        validate(data) {
+          return /^[0-9]+$/.test(data.params.id)
+        },
+        layout: 'users'
     }
 </script>
 
