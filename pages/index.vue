@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <Header></Header>
+<!--      <logo />-->
       <h1>hello!</h1>
       <nuxt-link to="/users">Users</nuxt-link>
       <nuxt-link to="/products">Products</nuxt-link>
@@ -33,9 +34,11 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Header from '~/components/Header.vue'
 
 export default {
   components: {
+    Header,
     Logo
   }
 }
