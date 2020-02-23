@@ -36,4 +36,9 @@
     width: 80%;
   }
 
+  .nav-items a:hover,
+  .nav-items a:active {
+    color: red;
+  }
+
 </style>
